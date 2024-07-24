@@ -11,5 +11,5 @@ function clearDisplay(){
 }
 
 function Calculate(){
-    display.value = eval(display.value).toFixed(4)
+    display.value = eval(display.value)
 }
